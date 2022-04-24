@@ -1,0 +1,56 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.Section_top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(images/Untitled.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+
+}
+.content h1{
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+.content h1 span{
+    color: rgb(193, 196, 189);
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(images/2.png);
+    }
+    35%
+    {
+        background-image: url(images/20191219_162616.jpg);
+    }
+    65%
+    {
+        background-image: url(images/Untitled.png);
+    }
+    100%
+    {
+        background-image: url(images/66257646-AF9B-414E-B349-EE40635555D5.jpg);
+    }
+   
+}
